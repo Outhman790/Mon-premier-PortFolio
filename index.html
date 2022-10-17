@@ -13,12 +13,12 @@
       <h1 class="title">I'm Outhman Moumou</h1>
       <p>Web Developer</p>
     </header>
-    <section class="about__me container">
+    <section id="about__me" class="container">
       <div class="wrapper">
-        <h2 class="about__me__title">About me</h2>
+        <h2>About me</h2>
         <img src="profile__pic.png" alt="my picture" />
         <p>
-          My name is Outhman Moumou, I’m a web designer and developer with a
+          My name is Outhman Moumou, I'm a web designer and developer with a
           great passion for building things with code. I live in the north of
           Morocco in a city called Tangier, I started learning programming cause
           of my love of computers and building my own things.
@@ -31,17 +31,17 @@
         </p>
       </div>
     </section>
-    <section class="projects container">
+    <section id="projects" class="container">
       <div class="wrapper">
-        <h2 class="projects__title">Projects</h2>
-        <div class="project__1">
+        <h2 id="projects__title">Projects</h2>
+        <div class="project">
           <a href="https://pig-game-v2.netlify.app/" target="_blank">
             <img src="project__1__img.jpg" alt="project 1" />
             <p>Pig Game</p>
             <p>June 2022</p>
           </a>
         </div>
-        <div class="project__2">
+        <div class="project">
           <a
             href="https://scissors-paper-rock-game.netlify.app/"
             target="_blank"
@@ -51,7 +51,7 @@
             <p>August 2017</p>
           </a>
         </div>
-        <div class="project__3">
+        <div class="project">
           <a href="https://bankist.netlify.app/" target="_blank">
             <img src="project__3__img.jpg" alt="project 3" />
             <p>Bankist App</p>
@@ -60,10 +60,10 @@
         </div>
       </div>
     </section>
-    <section class="work container">
+    <section id="works" class="container">
       <div class="wrapper">
         <h2>Work</h2>
-        <div class="work__1">
+        <div class="work">
           <p>2011-2014</p>
           <p>blogger - Freelancer</p>
           <p>
@@ -72,7 +72,7 @@
             google.
           </p>
         </div>
-        <div class="work__2">
+        <div class="work">
           <p>2014-2020</p>
           <p>Photo Editor- Freelancer</p>
           <p>
@@ -80,7 +80,7 @@
             worked with many clients locally, and it was a good time.
           </p>
         </div>
-        <div class="work__3">
+        <div class="work">
           <p>2021-2022</p>
           <p>Dropshipper- Freelancer</p>
           <p>
@@ -89,7 +89,7 @@
             client support.
           </p>
         </div>
-        <div class="work__4">
+        <div class="work">
           <p>2019-2020</p>
           <p>Wordpress developper- Freelancer</p>
           <p>
@@ -99,72 +99,59 @@
         </div>
       </div>
     </section>
-    <section class="education container">
+    <section id="education" class="container">
       <div class="wrapper">
         <h2>Education</h2>
-        <div class="education__info">
-          <div class="education__1">
-            <p>2011-2014</p>
-            <p>Linux</p>
-            <p>Multiple Courses</p>
-          </div>
-          <div class="education__2">
-            <p>2017-2018</p>
-            <p>HTML && CSS</p>
-            <p>Youtube and blogs</p>
-          </div>
-          <div class="education__3">
-            <p>2011-2015</p>
-            <p>Video Editing</p>
-            <p>Youtube, Udemy and blogs</p>
-          </div>
+        <div class="education">
+          <p>2011-2014</p>
+          <p>Linux</p>
+          <p>Multiple Courses</p>
+        </div>
+        <div class="education">
+          <p>2017-2018</p>
+          <p>HTML && CSS</p>
+          <p>Youtube and blogs</p>
+        </div>
+        <div class="education">
+          <p>2011-2015</p>
+          <p>Video Editing</p>
+          <p>Youtube, Udemy and blogs</p>
         </div>
       </div>
     </section>
-    <section class="language container">
+    <section id="languages" class="container">
       <div class="wrapper">
         <h2>Language</h2>
-        <div class="language__levels">
-          <div class="language__1">
-            <p><span>English</span> Fluent</p>
-          </div>
-          <div class="language__2">
-            <p><span>French</span> Intermediate</p>
-          </div>
-          <div class="language__3">
-            <p><span>Arabic</span> Native language</p>
-          </div>
-        </div>
-      </div>
+          <p class="language"><span>English</span> Fluent</p>
+          <p class="language"><span>French</span> Intermediate</p>
+          <p class="language"><span>Arabic</span> Native language</p>   
     </section>
-    <section class="social container">
+    <section id="social" class="container">
       <div class="wrapper">
         <h2>Social Network</h2>
-        <div class="social__networks">
-          <div class="fb__social">
+          <div class="social fb__social">
             <i class="fa-brands fa-facebook-f"></i>
             <p>outhman790</p>
           </div>
-          <div class="linkdn__social">
+          <div class="social linkdn__social">
             <i class="fa-brands fa-instagram"></i>
             <p>outh_man790</p>
           </div>
-          <div class="twitter__social">
+          <div class="social twitter__social">
             <i class="fa-brands fa-twitter"></i>
             <p>tangawi_2011</p>
-          </div>
-        </div>
+          </div>  
       </div>
     </section>
-    <section class="contact container">
+    <section id="contact" class="container">
       <div class="wrapper">
         <h2>Contact</h2>
         <form>
-          <input id="email__input" type="email" placeholder="Email" />
-          <input id="text__input" type="text" placeholder="Subject" />
-
+          <input id="email__input" class="input" type="email" placeholder="Email" />
+          <input id="text__input" class="input" type="text" placeholder="Subject" />
           <textarea
             id="textArea__input"
+            class="input"
             placeholder="Enter your message"
             cols="30"
             rows="6"
