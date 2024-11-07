@@ -35,5 +35,5 @@ The project is organized into a few main files and folders:
 1. **Clone this Repository**:
    Clone this repository to your local machine using the following command:
    ```bash
-   git clone https://github.com/Outhman790/SOLICODE-Mon-premier-PortFolio.git
+   git clone https://github.com/Outhman790/SOLICODE-my-first-portfolio
    ```
