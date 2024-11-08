@@ -28,12 +28,4 @@ The project is organized into a few main files and folders:
 - `profile__pic.png`, `profile__pic-removebg.png` - Profile images used in the header section.
 - `project__1__img.jpg`, `project__2__img.jpg`, `project__3__img.jpg` - Placeholder images representing projects in the portfolio.
 
-## Getting Started
 
-### Installation
-
-1. **Clone this Repository**:
-   Clone this repository to your local machine using the following command:
-   ```bash
-   git clone https://github.com/Outhman790/SOLICODE-my-first-portfolio
-   ```
